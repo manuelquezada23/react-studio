@@ -1,9 +1,114 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-direction: row;
+}
 
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+h2 {
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.CartText {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.CartItems {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CartPrice {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.CartItem {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.BakeryItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    column-gap: 20px;
 }
 
 .BakeryItem {
-  
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.BakeryImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.BakeryName {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.BakeryDescription {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.BakeryPurchase {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.BakeryPrice {
+    text-align: right;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.BakeryButton {
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
 }
